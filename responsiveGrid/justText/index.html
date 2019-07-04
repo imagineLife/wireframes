@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Responsive Grid</title>
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize.css, a cross-browser reset file -->
+<!--   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet"> -->
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../resetNormalize.css" />
+  <link rel="stylesheet" href="../float-grid.css" />
+  <link rel="stylesheet" href="justText.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="row">
+      <div class="col-12">
+        <h1>Col-12 'Banner' h1</h1>
+        <p>paragraph</p>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <div class="row">
+      <div class="col-4">
+        <div class="col4Child"/>
+          <div class="nestedChild">
+            <h3>H3 mini-header</h3>
+            <p>Content Paragraph here. Long text, wraps when its long.</p>
+          </div>
+        </div>            
+      </div>
+
+      <div class="col-4">
+        <div class="col4Child"/>
+          <div class="nestedChild">
+            <h3>H3 mini-header</h3>
+            <p>Content Paragraph here. Long text, wraps when its long.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="col4Child"/>
+          <div class="nestedChild">
+            <h3>H3 mini-header Ren</h3>
+            <p>Content Paragraph here. Long text, wraps when its long.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+
+      <div class="col-4">
+          <div class="col4Child"/>
+            <div class="nestedChild">
+              <h3>H3 mini-header</h3>
+              <p>Content Paragraph here. Long text, wraps when its long.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-4">
+        <div class="col4Child"/>
+          <div class="nestedChild">
+            <h3>H3 mini-header</h3>
+            <p>Content Paragraph here. Long text, wraps when its long.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="col4Child"/>
+          <div class="nestedChild">
+            <h3>H3 mini-header</h3>
+            <p>Content Paragraph here. Long text, wraps when its long.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

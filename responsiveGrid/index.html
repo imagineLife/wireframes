@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Responsive Grid</title>
+
+  <!-- Responsive viewport tag, tells small screens that it's responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize.css, a cross-browser reset file -->
+<!--   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet"> -->
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="resetNormalize.css" />
+  <link rel="stylesheet" href="float-grid.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="row">
+      <div class="col-12">
+        <h1>Star Wars Characters</h1>
+        <p>Incomplete list</p>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/rey_square.png" alt="Rey from Star Wars"/>
+          <div class="card-content">
+            <h3>Rey</h3>
+            <p>Protagonist, from Jakku</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/finn_square.png" alt="Finn from Star Wars" />
+          <div class="card-content">
+            <h3>Finn</h3>
+            <p>Stormtrooper, befriends Rey</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/kylo_square.png" alt="Kylo from Star Wars"/>
+          <div class="card-content">
+            <h3>Kylo Ren</h3>
+            <p>Main villain, or is he?</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/poe_square.png" alt="Poe from Star Wars"/>
+          <div class="card-content">
+            <h3>Poe</h3>
+            <p>Pilot for the resistance</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/chewbacca_square.png" alt="Chewbacca from Star Wars" />
+          <div class="card-content">
+            <h3>Chewbacca</h3>
+            <p>A great first mate</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card">
+          <img class="card-image" src="imgs/yoda_square.png" alt="Yoda from Star Wars"/>
+          <div class="card-content">
+            <h3>Yoda</h3>
+            <p>Wise old Jedi master</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
