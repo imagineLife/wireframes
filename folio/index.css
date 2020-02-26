@@ -2,6 +2,50 @@ main {
   padding-top: 100px;
 }
 
+
+/*
+  NAV
+*/
+* {
+  font-family: sans-serif
+}
+nav {
+  background: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  height: 45px;
+  line-height: 45px; 
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: block; 
+}
+nav ul a {
+  color: white; 
+}
+nav ul li {
+  margin: 0 auto;
+  list-style-type: none;
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  line-height: 45px; 
+}
+
+/*Nav buttons*/
+.navButton {
+  color: white;
+  background-color: transparent;
+  border: none; 
+}
+
 .box {
   height: 200px;
   text-align: center;
