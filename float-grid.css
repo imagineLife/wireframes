@@ -20,9 +20,11 @@
  *
  **/
 .row {
-  max-width: 1000px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /*max-width: 1000px;*/
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
+  width: 90%;
+  padding: 0 5%;
   margin: 0 auto;
 }
 
