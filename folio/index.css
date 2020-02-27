@@ -1,5 +1,6 @@
 main {
   padding-top: 100px;
+  background-color: rgb(15,50,80);
 }
 
 
@@ -51,6 +52,62 @@ nav ul li {
   text-align: center;
   padding-top: 30px;
   margin-bottom: 20px;
+}
+
+a.box{
+  background-size: 100%;
+  display: block;
+}
+
+.col-4 div a{
+  max-width: 100%;
+}
+
+.welcome{
+  color: white;
+}
+
+.tech-li{
+  display: inline-block;
+}
+
+.tech-li::after{
+  content: ' | ';
+}
+
+/*
+  Box bg images
+*/
+.mastering-bg{
+  background: transparent url('./assets/imgs/masteringD3.jpg') top left no-repeat;
+}
+.pizza-bg{
+  background: transparent url('./assets/imgs/nodeServer.jpg') top left no-repeat;
+}
+.say-what-bg{
+  background: transparent url('./assets/imgs/say-what/1.jpg') top left no-repeat;
+}
+.world-map-bg{
+  background: transparent url('./assets/imgs/worldmap/1.jpg') top left no-repeat;
+}
+.rhode-island-bg{
+  background: transparent url('./assets/imgs/ristats/1.jpg') top left no-repeat;
+}
+.housing-permits-bg{
+  background: transparent url('./assets/imgs/ctPermits/1.jpg') top left no-repeat;
+}
+.erp-bg{
+  background: transparent url('./assets/imgs/erp/1.jpg') top left no-repeat;
+}
+.macro-recipes-bg{
+  background: transparent url('./assets/imgs/macro/1.jpg') top left no-repeat;
+}
+.my-miles-bg{
+  background: transparent url('./assets/imgs/miles/1.jpg') top left no-repeat;
+}
+
+.caption{
+  background: transparent rgba(0,255,0,1) top left repeat
 }
 
 .black {
