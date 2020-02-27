@@ -1,189 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Folio</title>
-
-  <!-- Responsive viewport tag, tells small screens that it's responsive -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="./../resetNormalize.css" />
-  <link rel="stylesheet" href="./../float-grid.css" />
-  <link rel="stylesheet" href="./index.css" />
-  <link rel="stylesheet" href="./respond.css" />
-</head>
-<body>
-
-    <!-- Navigation -->
-
-    <nav role="navigation">
-        <ul>
-            
+   <head>
+      <meta charset="UTF-8">
+      <title>Folio</title>
+      <!-- Responsive viewport tag, tells small screens that it's responsive -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="./../resetNormalize.css" />
+      <link rel="stylesheet" href="./../float-grid.css" />
+      <link rel="stylesheet" href="./index.css" />
+      <link rel="stylesheet" href="./respond.css" />
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav role="navigation">
+         <ul>
             <li>
-                <button id="projectsButton" class="navButton">Projects</button>
-            </li>                
-
+               <button id="projectsButton" class="navButton">Projects</button>
+            </li>
             <li>
-                <button id="skillsButton" class="navButton">Skills/About</button>
-            </li> 
-
+               <button id="skillsButton" class="navButton">Skills/About</button>
+            </li>
             <li>
-                <button id="contactButton" class="navButton">Contact</button>
-            </li> 
-
-        </ul>
-    </nav>
-
-    <main role="main">
-
-    <!-- Welcome -->
-
-    <section class="welcomeSec">
+               <button id="contactButton" class="navButton">Contact</button>
+            </li>
+         </ul>
+      </nav>
+      <main role="main">
+         <!-- Welcome -->
+         <section class="welcomeSec">
             <h1 class="welcome">Welcome</h1>
-            <p class="introText">Friends & Family call me Jake. I make web-based software & I'm an enthusiast of data visualization. I'm currently enjoying working with D3, React, Node, Mongo, PostGres, SQL, all things JavaScript, and Scrum group practices.</p>
-    </section>
-
-    <!-- Responsive Blocks -->
-
-    <div class="row">
-      <div class="col-4">
-        <a class="box orange">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>"Mastering D3" Course</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box blue">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>Pizza-Deliver Node API</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box green">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>SayWhat?!</div>
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <a class="box orange">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>WEO Country Categories Mapped</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box blue">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>Rhode Island Income & Poverty Stats</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box green">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>CT Housing Permit Counts Mapped</div>
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">
-        <a class="box orange">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>Enterprise Resource Planner</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box blue">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>MacroRecipes Recipe Finder</div>
-        </a>
-      </div>
-      <div class="col-4">
-        <a class="box green">
-            <img 
-                src="https://source.unsplash.com/random/200x200" alt="dummy img">    
-            <div>MyMiles Mileage Tracker</div>
-        </a>
-      </div>
-    </div>
-
-    <!-- <div class="row">
-      <div class="col-6">
-        <div class="box orange">6 columns</div>
-      </div>
-      <div class="col-6">
-        <div class="box blue">6 columns</div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="box orange">12 columns</div>
-      </div>
-    </div>
-
-        <div class="row">
-      <div class="col-2">
-        <div class="box orange">2 columns</div>
-      </div>
-      <div class="col-2">
-        <div class="box blue">2 columns</div>
-      </div>
-      <div class="col-2">
-        <div class="box green">2 columns</div>
-      </div>
-      <div class="col-2">
-        <div class="box black">2 columns</div>
-      </div>
-      <div class="col-2">
-        <div class="box black">2 columns</div>
-      </div>
-      <div class="col-2">
-        <div class="box black">2 columns</div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2-3">
-        <div class="box orange">2-3 columns</div>
-      </div>
-      <div class="col-2-3">
-        <div class="box blue">2-3 columns</div>
-      </div>
-      <div class="col-2-3">
-        <div class="box green">2-3 columns</div>
-      </div>
-      <div class="col-2-3">
-        <div class="box black">2-3 columns</div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-3">
-        <div class="box orange">3 columns</div>
-      </div>
-      <div class="col-3">
-        <div class="box blue">3 columns</div>
-      </div>
-      <div class="col-3">
-        <div class="box green">3 columns</div>
-      </div>
-      <div class="col-3">
-        <div class="box black">3 columns</div>
-      </div>
-    </div> -->
-
-  </main>
-</body>
+            <p class="introText">Friends & Family call me Jake. <br>I make web-based software & I'm an enthusiast of data visualization. <br>
+            I'm currently enjoying working with technologies like</p>
+            <ul class="tech-list">
+               <li class="tech-li">D3</li>
+               <li class="tech-li">React</li>
+               <li class="tech-li">Node</li>
+               <li class="tech-li">Mongo</li>
+               <li class="tech-li">PostGres</li>
+               <li class="tech-li">SQL</li>
+               <li class="tech-li">all things JavaScript</li>
+               <li class="tech-li">Scrum group practices</li>
+            </ul>
+         </section>
+         <!-- Responsive Blocks -->
+         <div class="row">
+            <div class="col-4">
+               <div>
+                  <a class="box mastering-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">"Mastering D3" Course</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box pizza-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">Pizza-Deliver Node API</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box say-what-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">SayWhat?!</div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+               <div>
+                  <a class="box world-map-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">WEO Country Categories Mapped</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box rhode-island-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">Rhode Island Income & Poverty Stats</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box housing-permits-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">CT Housing Permit Counts Mapped</div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+               <div>
+                  <a class="box erp-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">Enterprise Resource Planner</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box macro-recipes-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">MacroRecipes Recipe Finder</div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-4">
+               <div>
+                  <a class="box my-miles-bg">
+                     <img 
+                        src="./empty.png" alt="dummy img">    
+                     <div class="caption">MyMiles Mileage Tracker</div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="row">
+            <div class="col-6">
+              <div class="box orange">6 columns</div>
+            </div>
+            <div class="col-6">
+              <div class="box blue">6 columns</div>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-12">
+              <div class="box orange">12 columns</div>
+            </div>
+            </div>
+            
+              <div class="row">
+            <div class="col-2">
+              <div class="box orange">2 columns</div>
+            </div>
+            <div class="col-2">
+              <div class="box blue">2 columns</div>
+            </div>
+            <div class="col-2">
+              <div class="box green">2 columns</div>
+            </div>
+            <div class="col-2">
+              <div class="box black">2 columns</div>
+            </div>
+            <div class="col-2">
+              <div class="box black">2 columns</div>
+            </div>
+            <div class="col-2">
+              <div class="box black">2 columns</div>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-2-3">
+              <div class="box orange">2-3 columns</div>
+            </div>
+            <div class="col-2-3">
+              <div class="box blue">2-3 columns</div>
+            </div>
+            <div class="col-2-3">
+              <div class="box green">2-3 columns</div>
+            </div>
+            <div class="col-2-3">
+              <div class="box black">2-3 columns</div>
+            </div>
+            </div>
+            
+            <div class="row">
+            <div class="col-3">
+              <div class="box orange">3 columns</div>
+            </div>
+            <div class="col-3">
+              <div class="box blue">3 columns</div>
+            </div>
+            <div class="col-3">
+              <div class="box green">3 columns</div>
+            </div>
+            <div class="col-3">
+              <div class="box black">3 columns</div>
+            </div>
+            </div> -->
+      </main>
+   </body>
 </html>
