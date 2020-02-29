@@ -59,6 +59,10 @@ a.box{
   display: block;
 }
 
+a.box img{
+  max-width: 100%;
+}
+
 .col-4 div a{
   max-width: 100%;
 }
@@ -107,7 +111,9 @@ a.box{
 }
 
 .caption{
-  background: transparent rgba(0,255,0,1) top left repeat
+  background: transparent rgba(0,255,0,1) top left repeat;
+  color: white;
+  font-family: Arial;
 }
 
 .black {
