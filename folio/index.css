@@ -84,6 +84,7 @@ section.welcome{
   background-size: cover;
   height: 500px;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .text-box{
@@ -99,6 +100,7 @@ section.welcome{
   color: gainsboro;
   font-size: 12px;
   margin: 5px 0;
+  text-transform: uppercase;
 }
 
 .tech-li{
@@ -141,7 +143,10 @@ section.welcome{
 }
 
 .caption{
+  text-align: left;
   color: white;
+  background-color: rgba(200,125,0,1);
+  padding: 20px 0 20px 10px;
 }
 
 .black {
