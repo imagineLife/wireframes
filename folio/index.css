@@ -55,7 +55,8 @@ nav ul li {
 }
 
 a.box{
-  background-size: 100%;
+  /*background-size: 100%;*/
+  background-size: cover;
   display: block;
 }
 
