@@ -100,7 +100,7 @@ section.welcome{
   color: gainsboro;
   font-size: 12px;
   margin: 5px 0;
-  word-spacing: 5px;
+  word-spacing: 3px;
   line-height: 1.2;
   /*text-transform: uppercase;*/
 }
@@ -116,6 +116,11 @@ section.welcome{
 .tech-li::after{
   content: ' | ';
 }
+
+.tech-li:last-child::after{
+  content: '';
+}
+
 .tech-li.title::after{
   content: '';
 }
