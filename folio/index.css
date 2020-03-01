@@ -49,8 +49,8 @@ nav ul li {
 
 .box {
   /*height: 200px;*/
+  /*padding-top: 30px;*/
   text-align: center;
-  padding-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -63,6 +63,7 @@ a.box{
 a.box img{
   max-width: 100%;
   background-color: rgba(200,125,0,.5);
+  margin-bottom: -3px;
 }
 
 .col-4 div a{
@@ -114,7 +115,6 @@ a.box img{
 
 .caption{
   color: white;
-  /*font-family: Arial;*/
 }
 
 .black {
