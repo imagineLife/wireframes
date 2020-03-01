@@ -100,15 +100,24 @@ section.welcome{
   color: gainsboro;
   font-size: 12px;
   margin: 5px 0;
-  text-transform: uppercase;
+  word-spacing: 5px;
+  line-height: 1.2;
+  /*text-transform: uppercase;*/
 }
 
 .tech-li{
   display: inline-block;
 }
 
+.tech-li.title{
+  text-decoration: underline;
+}
+
 .tech-li::after{
   content: ' | ';
+}
+.tech-li.title::after{
+  content: '';
 }
 
 /*
@@ -146,7 +155,7 @@ section.welcome{
   text-align: left;
   color: white;
   background-color: rgba(200,125,0,1);
-  padding: 20px 0 20px 10px;
+  padding: 20px 5px 20px 10px;
 }
 
 .black {
