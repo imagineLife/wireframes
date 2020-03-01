@@ -27,16 +27,16 @@
   .contactTextWrapper {
     display: inline-block;
   }
-  .welcome {
-    font-size: 5em;
-    margin-top: 400px;
-  }
   .introText {
     margin-top: 150px;
     position: relative;
   }
-  .welcomeSec {
+  section.welcome {
     height: 600px;
+  }
+  h1.welcome {
+    font-size: 2em;
+    /*margin-top: 400px;*/
   }
   .project {
     overflow: hidden;
