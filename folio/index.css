@@ -89,7 +89,16 @@ section.welcome{
 .text-box{
   position: absolute;
   bottom: 15px;
+  padding: 15px;
+}
 
+.intro-text{
+  line-height: 1.25;
+}
+.tech-list{
+  color: gainsboro;
+  font-size: 12px;
+  margin: 5px 0;
 }
 
 .tech-li{
