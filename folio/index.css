@@ -1,8 +1,13 @@
 main {
-  padding-top: 100px;
   background-color: rgb(15,31,50);
 }
 
+h1{
+  font-size: 2em;
+  margin: 0;
+  padding: 0.67em 0;
+  text-align: center;
+}
 
 /*
   NAV
@@ -70,8 +75,21 @@ a.box img{
   max-width: 100%;
 }
 
-.welcome{
+section.welcome{
   color: white;
+  background-image: url('./assets/imgs/page/welcome.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.text-box{
+  position: absolute;
+  bottom: 15px;
+
 }
 
 .tech-li{
