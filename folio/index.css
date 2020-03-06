@@ -67,8 +67,35 @@ a.box{
 
 a.box img{
   max-width: 100%;
-  background-color: rgba(200,125,0,.5);
   margin-bottom: -3px;
+}
+
+a.box.red-fill img{
+  background-color: rgba(225,50,50,.5);
+}
+
+a.box.orange-fill img{
+  background-color: rgba(225,100,50,.5);
+}
+
+a.box.yellow-fill img{
+  background-color: rgba(225,225,50,.5);
+}
+
+a.box.green-fill img{
+  background-color: rgba(50,225,50,.5);
+}
+
+a.box.blue-fill img{
+  background-color: rgba(50,225,225,.5);
+}
+
+a.box.gb-fill img{
+  background-color: rgba(50,100,225,.5);
+}
+
+a.box.blue-fill img{
+  background-color: rgba(50,50,225,.5);
 }
 
 .col-4 div a{
