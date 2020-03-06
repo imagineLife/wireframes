@@ -96,6 +96,11 @@ section.welcome{
 .intro-text{
   line-height: 1.25;
 }
+
+.tech-list-box{
+  padding: 0;
+}
+
 .tech-list{
   color: gainsboro;
   font-size: 12px;
@@ -107,6 +112,10 @@ section.welcome{
 
 .tech-li{
   display: inline-block;
+}
+
+.tech-li i{
+  font-style: italic;
 }
 
 .tech-li.title{
