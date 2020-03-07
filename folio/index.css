@@ -70,40 +70,70 @@ a.box img{
   margin-bottom: -3px;
 }
 
-a.box.r-fill img{
-  background-color: rgba(225,25,25,.5);
+/**/
+.caption.r-fill{
+  background-color: rgba(205,12,12,.96);
+}
+
+.r-fill img{
+  background-color: rgba(205,12,12,.25);
+}
+
+/**/
+.caption.rlg-fill{
+  background-color: rgba(205,112,12,.96);
 }
 
 a.box.rlg-fill img{
-  background-color: rgba(225,125,25,.5);
+  background-color: rgba(205,112,12,.25);
+}
+
+/**/
+.caption.rg-fill{
+  background-color: rgba(205,205,12,.96);
 }
 
 a.box.rg-fill img{
-  background-color: rgba(225,225,25,.5);
+  background-color: rgba(205,205,12,.25);
+}
+
+/**/
+.caption.lrg-fill{
+  background-color: rgba(112,205,12,.96);
 }
 
 a.box.lrg-fill img{
-  background-color: rgba(125,225,25,.5);
+  background-color: rgba(112,205,12,.25);
+}
+
+/**/
+.caption.g-fill{
+  background-color: rgba(12,205,12,.96);
 }
 
 a.box.g-fill img{
-  background-color: rgba(25,225,25,.5);
+  background-color: rgba(12,205,12,.25);
+}
+
+/**/
+.caption.glb-fill{
+  background-color: rgba(12,205,112,.96);
 }
 
 a.box.glb-fill img{
-  background-color: rgba(25,225,125,.5);
+  background-color: rgba(12,205,112,.25);
 }
 
 a.box.gb-fill img{
-  background-color: rgba(25,225,225,.5);
+  background-color: rgba(12,205,205,.25);
 }
 
 a.box.lgb-fill img{
-  background-color: rgba(25,125,225,.5);
+  background-color: rgba(12,112,205,.25);
 }
 
 a.box.b-fill img{
-  background-color: rgba(25,25,225,.5);
+  background-color: rgba(12,12,205,.25);
 }
 
 .col-4 div a{
@@ -130,6 +160,11 @@ section.welcome{
 
 .intro-text{
   line-height: 1.25;
+}
+
+.intro-text i{
+  font-style: italic;
+  font-size: .85em;
 }
 
 .tech-list-box{
@@ -203,8 +238,9 @@ section.welcome{
 .caption{
   text-align: left;
   color: white;
-  background-color: rgba(200,125,0,1);
+  /*background-color: rgba(200,125,0,1);*/
   padding: 20px 5px 20px 10px;
+  text-align: center;
 }
 
 .black {
