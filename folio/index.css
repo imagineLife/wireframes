@@ -53,14 +53,11 @@ nav ul li {
 }
 
 .box {
-  /*height: 200px;*/
-  /*padding-top: 30px;*/
   text-align: center;
   margin-bottom: 20px;
 }
 
 a.box{
-  /*background-size: 100%;*/
   background-size: cover;
   display: block;
 }
@@ -73,10 +70,14 @@ a.box img{
 /**/
 .caption.r-fill{
   background-color: rgba(205,12,12,.96);
+  transition: all 250ms;
 }
-
 .r-fill img{
   background-color: rgba(205,12,12,.25);
+  transition: all 250ms;
+}
+a.r-fill:hover,a.r-fill:hover > *{
+  background-color: rgba(50,0,0,.8);
 }
 
 /**/
@@ -86,6 +87,10 @@ a.box img{
 
 a.box.rlg-fill img{
   background-color: rgba(205,112,12,.25);
+}
+
+a.rlg-fill:hover,a.rlg-fill:hover > *{
+  background-color: rgba(0,0,0,.8);
 }
 
 /**/
@@ -124,14 +129,27 @@ a.box.glb-fill img{
   background-color: rgba(12,205,112,.25);
 }
 
+/**/
+.caption.gb-fill{
+  background-color: rgba(12,205,205,.96);
+}
+
 a.box.gb-fill img{
   background-color: rgba(12,205,205,.25);
 }
 
+/**/
+.caption.lgb-fill{
+  background-color: rgba(12,112,205,.96);
+}
 a.box.lgb-fill img{
   background-color: rgba(12,112,205,.25);
 }
 
+/**/
+.caption.b-fill{
+  background-color: rgba(12,12,205,.96);
+}
 a.box.b-fill img{
   background-color: rgba(12,12,205,.25);
 }
