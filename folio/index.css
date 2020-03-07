@@ -60,98 +60,91 @@ nav ul li {
 a.box{
   background-size: cover;
   display: block;
+  border-radius: 0 0 25px 25px;
 }
 
 a.box img{
   max-width: 100%;
   margin-bottom: -3px;
+  border-radius: 0 0 25px 25px;
 }
 
 /**/
 .caption.r-fill{
-  background-color: rgba(205,12,12,.96);
-  transition: all 250ms;
+  background-color: rgba(205,12,12,.98);
 }
 .r-fill img{
-  background-color: rgba(205,12,12,.25);
-  transition: all 250ms;
-}
-a.r-fill:hover,a.r-fill:hover > *{
-  background-color: rgba(50,0,0,.8);
+  background-color: rgba(205,12,12,.95);
 }
 
 /**/
 .caption.rlg-fill{
-  background-color: rgba(205,112,12,.96);
+  background-color: rgba(205,112,12,.98);
 }
 
 a.box.rlg-fill img{
-  background-color: rgba(205,112,12,.25);
-}
-
-a.rlg-fill:hover,a.rlg-fill:hover > *{
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(205,112,12,.95);
 }
 
 /**/
 .caption.rg-fill{
-  background-color: rgba(205,205,12,.96);
+  background-color: rgba(205,205,12,.98);
 }
 
 a.box.rg-fill img{
-  background-color: rgba(205,205,12,.25);
+  background-color: rgba(205,205,12,.95);
 }
 
 /**/
 .caption.lrg-fill{
-  background-color: rgba(112,205,12,.96);
+  background-color: rgba(112,205,12,.98);
 }
 
 a.box.lrg-fill img{
-  background-color: rgba(112,205,12,.25);
+  background-color: rgba(112,205,12,.95);
 }
 
 /**/
 .caption.g-fill{
-  background-color: rgba(12,205,12,.96);
+  background-color: rgba(12,205,12,.98);
 }
 
 a.box.g-fill img{
-  background-color: rgba(12,205,12,.25);
+  background-color: rgba(12,205,12,.95);
 }
 
 /**/
 .caption.glb-fill{
-  background-color: rgba(12,205,112,.96);
+  background-color: rgba(12,205,112,.98);
 }
 
 a.box.glb-fill img{
-  background-color: rgba(12,205,112,.25);
+  background-color: rgba(12,205,112,.95);
 }
 
 /**/
 .caption.gb-fill{
-  background-color: rgba(12,205,205,.96);
+  background-color: rgba(12,205,205,.98);
 }
 
 a.box.gb-fill img{
-  background-color: rgba(12,205,205,.25);
+  background-color: rgba(12,205,205,.95);
 }
 
 /**/
 .caption.lgb-fill{
-  background-color: rgba(12,112,205,.96);
+  background-color: rgba(12,112,205,.98);
 }
 a.box.lgb-fill img{
-  background-color: rgba(12,112,205,.25);
+  background-color: rgba(12,112,205,.95);
 }
 
 /**/
 .caption.b-fill{
-  background-color: rgba(12,12,205,.96);
+  background-color: rgba(12,12,205,.98);
 }
 a.box.b-fill img{
-  background-color: rgba(12,12,205,.25);
+  background-color: rgba(12,12,205,.95);
 }
 
 .col-4 div a{
@@ -256,9 +249,15 @@ section.welcome{
 .caption{
   text-align: left;
   color: white;
-  /*background-color: rgba(200,125,0,1);*/
   padding: 20px 5px 20px 10px;
   text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.sub-text{
+  font-size: .7em;
+  font-style: italic;
 }
 
 .black {
@@ -276,4 +275,16 @@ section.welcome{
 
 .blue {
   background-color: blue;
+}
+
+a.box, div.caption, img.overlay{
+  transition: all 500ms;
+}
+
+/*a.box:hover, a.box:hover > div.caption, a.box:hover > img.overlay, a.box:hover > *{
+  background-color: rgba(10,10,10,.15);
+}*/
+
+a.box:hover, a.box:hover > img.overlay{
+  background-color: rgba(10,10,10,.15);
 }
