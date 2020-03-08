@@ -58,7 +58,11 @@
 }
 
 @media only screen and (min-width: 450px){
-  .col-2-3{
+  .col-2-3, .col-3-4{
+    width: 50%;
+  }
+
+  .col-3-4{
     width: 50%;
   }
 }
