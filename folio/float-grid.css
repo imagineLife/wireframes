@@ -45,11 +45,14 @@
   /* Gutters:
    * Each column is padded by half-a-gutter on each side,
    *
-   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   * PREVIOUS Half a gutter is 10px, 10/960 (context) = 1.041666%
+   * CURRENT Half a gutter is 20px, 10/960 (context) = 2.083333%
    *
    */
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
+  /*padding-left: 1.04166666%;*/
+  /*padding-right: 1.04166666%;*/
+  padding-left: 2.083333%;
+  padding-right: 2.083333%;
 }
 
 /* Mobile defaults */
