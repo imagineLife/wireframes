@@ -1,0 +1,18 @@
+[
+	{
+		"class": "r-fill",
+		"bgcolor": "rgba(205,12,12,.98)",
+		"title": "Mastering D3v5",
+		"subTitle": "Online Course Development",
+		"hoverText": "A Curriculum for learning D3.js, building charts that are interactive, linked, consuming 3rd party api's & more.",
+		"tech": "D3 | CSS | HTML | JS | Responsive Design | Video / Audio Editing | Curriculum Development"
+	},
+	{
+		"class": "rlg-fill",
+		"bgcolor": "rgba(205,112,12,.98)",
+		"title": "Restaurant Node API",
+		"subTitle": "No npm or packages. Just Node.",
+		"hoverText": "Create/Update an account, read a menu, place an order, receive a confirmation email, & pay for an order.",
+		"tech": "Node | JavaScript | Encryption | MailGun API | Stripe API | HTML | CSS"
+	}
+]
