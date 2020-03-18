@@ -22,5 +22,13 @@
 		"subTitle": "Speech Content Analysis",
 		"hoverText": "A brief look into what Presidents say in their inaugural addresses.",
 		"tech": "React | D3 | Node | Express | Data Visualization | Text Analysis | Responsive Design | Auth | Jest | Enzyme"
+	},
+	{
+		"class": "lrg-fill",
+		"bgcolor": "rgba(112,205,12,.98)",
+		"title": "World Bank Country Categories",
+		"subTitle": "An interactive map of the world",
+		"hoverText": "View, filter, hover, & zoom into the world, categorized by income levels.",
+		"tech": " D3 | Mapping | JS |  HTML | CSS"
 	}
 ]
