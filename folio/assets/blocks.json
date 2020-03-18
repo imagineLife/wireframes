@@ -29,6 +29,14 @@
 		"title": "World Bank Country Categories",
 		"subTitle": "An interactive map of the world",
 		"hoverText": "View, filter, hover, & zoom into the world, categorized by income levels.",
-		"tech": " D3 | Mapping | JS |  HTML | CSS"
+		"tech": " D3 | Mapping | Data Visualization | JS |  HTML | CSS"
+	},
+	{
+		"class": "g-fill",
+		"bgcolor": "rgba(12,205,12,.98)",
+		"title": "R.I Stats",
+		"subTitle": "Cencus Data, briefly analyzed",
+		"hoverText": "Review Poverty & Income levels in Rhode Island through simple charts & maps.",
+		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
 	}
 ]
