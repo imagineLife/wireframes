@@ -14,5 +14,13 @@
 		"subTitle": "No npm or packages. Just Node.",
 		"hoverText": "Create/Update an account, read a menu, place an order, receive a confirmation email, & pay for an order.",
 		"tech": "Node | JavaScript | Encryption | MailGun API | Stripe API | HTML | CSS"
+	},
+	{
+		"class": "rg-fill",
+		"bgcolor": "rgba(205,205,12,.98)",
+		"title": "SayWhat?!",
+		"subTitle": "Speech Content Analysis",
+		"hoverText": "A brief look into what Presidents say in their inaugural addresses.",
+		"tech": "React | D3 | Node | Express | Data Visualization | Text Analysis | Responsive Design | Auth | Jest | Enzyme"
 	}
 ]
