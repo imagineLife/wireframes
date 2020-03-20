@@ -32,11 +32,19 @@
 		"tech": " D3 | Mapping | Data Visualization | JS |  HTML | CSS"
 	},
 	{
-		"class": "g-fill",
+		"class": "glb-fill",
 		"bgcolor": "rgba(12,205,12,.98)",
 		"title": "R.I Stats",
 		"subTitle": "Cencus Data, briefly analyzed",
 		"hoverText": "Review Poverty & Income levels in Rhode Island through simple charts & maps.",
+		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
+	},
+	{
+		"class": "gb-fill",
+		"bgcolor": "rgba(12,205,205,.98)",
+		"title": "CT Housing Permits",
+		"subTitle": "Interactive Choropleth Mapping",
+		"hoverText": "See how many housing permits were issued by town in CT...",
 		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
 	}
 ]
