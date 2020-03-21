@@ -310,3 +310,11 @@ p.overlay-text{
 a.box:hover p.overlay-text{
   opacity: 1;
 }
+
+
+/*
+  Hover V2, a-la 'comma'
+*/
+.hover-v2{
+  border-radius: 0 0 25px 25px;
+}
