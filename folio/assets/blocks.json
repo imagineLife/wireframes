@@ -46,5 +46,13 @@
 		"subTitle": "Interactive Choropleth Mapping",
 		"hoverText": "See how many housing permits were issued by town in CT...",
 		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
+	},
+	{
+		"class": "lgb-fill",
+		"bgcolor": "rgba(12,112,205,.98)",
+		"title": "Macro Recipes",
+		"subTitle": "Nutrient-Driven Recipe Finder",
+		"hoverText": "Search for recipes based on protein, fat, & carb values!",
+		"tech": "HTML | CSS | JS | Responsive Design | API Integration"
 	}
 ]
