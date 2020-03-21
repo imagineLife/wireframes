@@ -1,0 +1,36 @@
+{
+	"dark": [
+		{
+			"name": "blue",
+			"rgba": "rgb(32,46,77)"
+		},
+		{
+			"name": "bluegreen",
+			"rgba": "rgb(32,65,77)"
+		},
+		{
+			"name": "green",
+			"rgba": "rgb(32,77,63)"
+		},
+		{
+			"name": "greenyellow",
+			"rgba": "rgb(70,77,32)"
+		},
+		{
+			"name": "orangered",
+			"rgba": "rgb(77,60,32)"
+		},
+		{
+			"name": "red",
+			"rgba": "rgb(77,32,32)"
+		},
+		{
+			"name": "redpink",
+			"rgba": "rgb(77,32,55)"
+		},
+		{
+			"name": "purpleblue",
+			"rgba": "rgb(55,32,77)"
+		}
+	]
+}
