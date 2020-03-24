@@ -1,0 +1,18 @@
+div.hover-v2:hover:before{
+	opacity: 1;
+}
+
+div.hover-v2:before{
+  backgroun: rgba(0,0,0,.6) !important;
+  transition: opacity .35s;
+  z-index: 11;
+}
+
+div.hover-v2 > a{
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 16;
+}
