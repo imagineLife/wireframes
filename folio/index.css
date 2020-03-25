@@ -278,6 +278,10 @@ section.welcome{
   font-size: .7em;
 }
 
+.sub-text.eye-pop{
+  font-size: .9em;
+}
+
 .black {
   background-color: black;
   color: white;
