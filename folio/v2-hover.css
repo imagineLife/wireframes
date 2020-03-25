@@ -1,5 +1,5 @@
-div.hover-v2:hover:before{
-	opacity: 1;
+div.hover-v2:hover::before{
+  opacity: 1;
 }
 
 div.hover-v2:before{
@@ -9,10 +9,94 @@ div.hover-v2:before{
 }
 
 div.hover-v2 > a{
-	position: absolute;
+/*  position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 0;*/
   z-index: 16;
 }
+
+.hover-v2 .thumb.erp-bg{
+  background-image: url('./assets/imgs/erp/1.jpg');
+}
+
+/*NOTICE the hover syntax ... .ugh*/
+.hover-v2 .box:hover .caption{ 
+  background-color: rgba(0,0,0,.6);
+  height: 100%;
+}
+
+.hover-v2 a.box:hover{
+  background-image: inherit;
+  /*HACK FOR NOW*/
+  background-image: url('./assets/imgs/erp/1.jpg');
+}
+
+/*
+  v2 Text && HR
+*/
+
+/* > * is 'only 1 level below'*/
+.hover-v2 .caption > *{
+  transition: all;
+  transition-duration: .3s;
+  opacity: 0;
+}
+
+.hover-v2:hover .caption > *{
+  opacity: 1;
+}
+
+.hover-v2 .caption p:nth-child(1){
+  transform: translateY(-10px);
+}
+
+.hover-v2:hover .caption p:nth-child(1){
+  transform: translateY(0);
+  transition-delay: 0.2s;
+}
+
+/*HR*/
+.hover-v2 .caption hr{
+  width: 0%;
+  margin: 10px 12.5%;
+}
+
+.hover-v2:hover .caption hr{
+  width: 75%;
+  transition-delay: 0.1s;
+}
+
+
+/*sub-text*/
+.hover-v2 .caption p.sub-text{
+  transform: translateY(10px);
+}
+
+.hover-v2:hover .caption p.sub-text{
+  transform: translateY(0);
+  transition-delay: 0.35s;
+}
+
+
+/*
+  div
+
+    ::before
+  
+    <a>
+  
+    div.picture
+  
+      div.thumb
+  
+    div.item-description alt
+  
+      h6 (purple text)
+  
+      div.loader
+  
+    ::after (spinner)
+*/
+  
