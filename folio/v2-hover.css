@@ -9,32 +9,18 @@ div.hover-v2:before{
 }
 
 div.hover-v2 > a{
-/*  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;*/
   z-index: 16;
-}
-
-.hover-v2 .thumb.erp-bg{
-  background-image: url('./assets/imgs/erp/1.jpg');
 }
 
 /*NOTICE the hover syntax ... .ugh*/
 .hover-v2 .box:hover .caption{ 
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.75);
+  border-radius: 0 0 25px 25px;
   height: 100%;
 }
 
-.hover-v2 a.box:hover{
-  background-image: inherit;
-  /*HACK FOR NOW*/
-  background-image: url('./assets/imgs/erp/1.jpg');
-}
-
 /*
-  v2 Text && HR
+  hover Text && line
 */
 
 /* > * is 'only 1 level below'*/
@@ -49,6 +35,7 @@ div.hover-v2 > a{
 }
 
 .hover-v2 .caption p:nth-child(1){
+  margin-top: 0;
   transform: translateY(-10px);
 }
 
