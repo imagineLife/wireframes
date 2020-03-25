@@ -272,7 +272,6 @@ section.welcome{
 
 .sub-text{
   font-size: .7em;
-  font-style: italic;
 }
 
 .black {
@@ -299,7 +298,7 @@ a.box, div.caption, img.overlay{
 a.box:hover, a.box:hover > img.overlay{
   transform: scale(1.05);
   background-blend-mode: multiply;
-  background-image: none;
+  /*background-image: none;*/
 }
 
 p.overlay-text{
