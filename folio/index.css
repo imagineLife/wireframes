@@ -296,7 +296,7 @@ a.box, div.caption, img.overlay{
 }
 
 a.box:hover, a.box:hover > img.overlay{
-  transform: scale(1.05);
+  transform: scale(1.02);
   background-blend-mode: multiply;
   /*background-image: none;*/
 }
