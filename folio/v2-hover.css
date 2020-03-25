@@ -37,6 +37,8 @@ div.hover-v2 > a{
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
   transform: translateY(-10px);
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 .hover-v2:hover .caption p:nth-child(1){
