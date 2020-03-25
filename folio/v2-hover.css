@@ -11,8 +11,8 @@
 }*/
 
 .hover-v2 .box:hover .caption{ 
-  background-color: rgba(0,0,0,.75);
-  border-radius: 0 0 25px 25px;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 0 0 23px 23px;
   height: 100%;
 }
 
@@ -23,7 +23,7 @@
 /* > * is 'only 1 level below'*/
 .hover-v2 .caption > *{
   transition: all;
-  transition-duration: .6s;
+  transition-duration: .5s;
   opacity: 0;
 }
 
@@ -49,7 +49,7 @@
 .hover-v2 .caption hr{
   width: 0%;
   margin: 10px 12.5%;
-  background-color: rgb(87,185,221);
+  border: 2px solid rgb(87,185,221);
 }
 
 .hover-v2:hover .caption hr{
