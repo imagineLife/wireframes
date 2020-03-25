@@ -110,6 +110,10 @@
   .tech-list:nth-child(even){
     margin-left: 7%
   }
+
+  section div.caption p {
+    padding: 0 2%;
+  }
 }
 
 @media only screen and (min-width: 880px) {
