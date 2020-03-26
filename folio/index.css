@@ -74,7 +74,7 @@ a.box{
   background-size: cover;
   display: block;
   border-radius: 0 0 25px 25px;
-  height: 270px;
+  height: 305px;
 }
 
 a.box img{
@@ -120,7 +120,7 @@ section.welcome{
 
 .tech-list{
   color: gainsboro;
-  font-size: 12px;
+  font-size: 14px;
   margin: 5px 0;
   word-spacing: 3px;
   line-height: 1.2;
@@ -189,6 +189,7 @@ section.welcome{
   text-align: center;
   font-size: 1.2em;
   line-height: 1.2em;
+  position: relative;
 }
 
 .sub-text{
