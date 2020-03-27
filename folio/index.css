@@ -120,7 +120,8 @@ section.welcome{
 }
 
 .tech-list{
-  color: gainsboro;
+  color: /*gainsboro*/;
+  color: lightgrey;
   font-size: 14px;
   margin: 5px 0;
   word-spacing: 3px;
