@@ -48,7 +48,7 @@ a.box:hover .caption > *{
   font-size: 1.1em;
 }
 
-.hover-v2:hover .caption p:nth-child(1){
+.box:hover .caption p:nth-child(1){
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.2s;
@@ -61,7 +61,7 @@ a.box:hover .caption > *{
   border: 2px solid rgb(87,185,221);
 }
 
-.hover-v2:hover .caption hr{
+.box:hover .caption hr{
   opacity: 1;
   width: 75%;
   transition-delay: 0.1s;
@@ -73,7 +73,7 @@ a.box:hover .caption > *{
   transform: translateY(15px);
 }
 
-.hover-v2:hover .caption p.sub-text{
+.box:hover .caption p.sub-text{
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.35s;
@@ -83,7 +83,7 @@ a.box:hover .caption > *{
   Card Tech-list
 */
 div.caption ul {
-  margin: 0 0 0 5%;
+  margin: 0 0 0 2.5%;
   padding: 0;
   position: absolute;
   width: 90%;
@@ -91,7 +91,7 @@ div.caption ul {
   transform: translateX(35px);
 }
 
-.hover-v2:hover .caption ul {
+.box:hover .caption ul {
   opacity: 1;
   transform: translateX(0);
   transition-delay: .5s;
@@ -100,9 +100,10 @@ div.caption ul {
 div.caption li{
   list-style-type: none;
   font-size: 12px;
-  color: gainsboro;
+  color: rgb(190,190,190);
   display: inline;
 }
+
 div.caption li::after{
   content: ' | ';
 }
