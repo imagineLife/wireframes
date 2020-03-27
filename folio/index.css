@@ -75,6 +75,7 @@ a.box{
   display: block;
   border-radius: 0 0 25px 25px;
   height: 305px;
+  text-decoration: none;
 }
 
 a.box img{
@@ -219,10 +220,6 @@ section.welcome{
 
 a.box, div.caption, img.overlay{
   transition: all 300ms;
-}
-
-a.box:hover, a.box:hover > img.overlay{
-  /*transform: scale(1.02);*/
 }
 
 p.overlay-text{
