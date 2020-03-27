@@ -10,10 +10,13 @@
   -webkit-transition: background-size 13s ease-in;
 }*/
 
-.hover-v2 .box:hover .caption{ 
-  background-color: rgba(0,0,0,.8);
+.hover-v2 .box .caption{ 
   border-radius: 0 0 23px 23px;
   height: 100%;
+}
+
+.hover-v2 .box:hover .caption{ 
+  background-color: rgba(0,0,0,.8);
 }
 
 /*
@@ -23,24 +26,30 @@
 /* > * is 'only 1 level below'*/
 .hover-v2 .caption > *{
   transition: all;
-  transition-duration: .5s;
+  transition-duration: .3s;
   opacity: 0;
 }
 
-.hover-v2:hover .caption > *{
+a.box:hover .caption > *{
   opacity: 1;
+}
+
+.hover-v2 .caption p,
+.hover-v2 .caption hr,
+.hover-v2 .caption ul{
+  opacity: 0;
 }
 
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
   transform: translateY(-10px);
-  /*font-weight: bold;*/
   color: rgb(87,185,221);
   border: rgb(87,185,221);
   font-size: 1.1em;
 }
 
 .hover-v2:hover .caption p:nth-child(1){
+  opacity: 1;
   transform: translateY(0);
   transition-delay: 0.2s;
 }
@@ -53,6 +62,7 @@
 }
 
 .hover-v2:hover .caption hr{
+  opacity: 1;
   width: 75%;
   transition-delay: 0.1s;
 }
@@ -64,6 +74,7 @@
 }
 
 .hover-v2:hover .caption p.sub-text{
+  opacity: 1;
   transform: translateY(0);
   transition-delay: 0.35s;
 }
@@ -81,6 +92,7 @@ div.caption ul {
 }
 
 .hover-v2:hover .caption ul {
+  opacity: 1;
   transform: translateX(0);
   transition-delay: .5s;
 }
