@@ -39,16 +39,30 @@
 		]
 	},
 	{
-		"title": "World Bank Country Categories",
-		"subTitle": "An interactive map of the world",
-		"hoverText": "View, filter, hover, & zoom into the world, categorized by income levels.",
-		"tech": " D3 | Mapping | Data Visualization | JS |  HTML | CSS"
+		"title": "World Bank Mapped Categories",
+		"text": "Zoom, toggle, and hover in this map of the countries of the world categorically colored by their GNI per capita.",
+		"tech": [
+			"D3",
+			"Mapping",
+			"GeoJSON (topoJSON)",
+			"JS",
+			"HTML",
+			"CSS",
+			"Data Visualization"
+		]
 	},
 	{
 		"title": "R.I Stats",
-		"subTitle": "Cencus Data, briefly analyzed",
 		"hoverText": "Review Poverty & Income levels in Rhode Island through simple charts & maps.",
-		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
+		"tech": [
+			"D3",
+			"Mapping",
+			"GeoJSON (topoJSON)",
+			"JS",
+			"HTML",
+			"CSS",
+			"Data Visualization"
+		]
 	},
 	{
 		"title": "CT Housing Permits",
