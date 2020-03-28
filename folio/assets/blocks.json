@@ -1,55 +1,52 @@
 [
 	{
-		"class": "r-fill",
-		"bgcolor": "rgba(205,12,12,.98)",
 		"title": "Mastering D3v5",
-		"subTitle": "Online Course Development",
-		"hoverText": "A Curriculum for learning D3.js, building charts that are interactive, linked, consuming 3rd party api's & more.",
-		"tech": "D3 | CSS | HTML | JS | Responsive Design | Video / Audio Editing | Curriculum Development"
+		"text": "An online course I created covering D3v5, interactive mapping, linked visualizations, 3rd party api integration & more.",
+		"tech": [
+			"D3",
+			"Data Visualization",
+			"Curriculum Development",
+			"Audio/Video Recording & Editing"
+		]
 	},
 	{
-		"class": "rlg-fill",
-		"bgcolor": "rgba(205,112,12,.98)",
-		"title": "Restaurant Node API",
-		"subTitle": "No npm or packages. Just Node.",
-		"hoverText": "Create/Update an account, read a menu, place an order, receive a confirmation email, & pay for an order.",
-		"tech": "Node | JavaScript | Encryption | MailGun API | Stripe API | HTML | CSS"
+		"title": "Pizza-Deliver Node API",
+		"text": "An API using core Node API, no npm: user-accounts (CRUD), a cli, auth, menu & cart management, stripe & mailgun api integration, logging & more.",
+		"tech": [
+			"Node",
+			"JavaScript",
+			"Auth",
+			"Encryption",
+			"(De+)Compression",
+			"CLI",
+			"Logging"
+		]
 	},
 	{
-		"class": "rg-fill",
-		"bgcolor": "rgba(205,205,12,.98)",
 		"title": "SayWhat?!",
 		"subTitle": "Speech Content Analysis",
 		"hoverText": "A brief look into what Presidents say in their inaugural addresses.",
 		"tech": "React | D3 | Node | Express | Data Visualization | Text Analysis | Responsive Design | Auth | Jest | Enzyme"
 	},
 	{
-		"class": "lrg-fill",
-		"bgcolor": "rgba(112,205,12,.98)",
 		"title": "World Bank Country Categories",
 		"subTitle": "An interactive map of the world",
 		"hoverText": "View, filter, hover, & zoom into the world, categorized by income levels.",
 		"tech": " D3 | Mapping | Data Visualization | JS |  HTML | CSS"
 	},
 	{
-		"class": "glb-fill",
-		"bgcolor": "rgba(12,205,12,.98)",
 		"title": "R.I Stats",
 		"subTitle": "Cencus Data, briefly analyzed",
 		"hoverText": "Review Poverty & Income levels in Rhode Island through simple charts & maps.",
 		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
 	},
 	{
-		"class": "gb-fill",
-		"bgcolor": "rgba(12,205,205,.98)",
 		"title": "CT Housing Permits",
 		"subTitle": "Interactive Choropleth Mapping",
 		"hoverText": "See how many housing permits were issued by town in CT...",
 		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
 	},
 	{
-		"class": "lgb-fill",
-		"bgcolor": "rgba(12,112,205,.98)",
 		"title": "Macro Recipes",
 		"subTitle": "Nutrient-Driven Recipe Finder",
 		"hoverText": "Search for recipes based on protein, fat, & carb values!",
