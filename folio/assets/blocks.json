@@ -24,9 +24,19 @@
 	},
 	{
 		"title": "SayWhat?!",
-		"subTitle": "Speech Content Analysis",
-		"hoverText": "A brief look into what Presidents say in their inaugural addresses.",
-		"tech": "React | D3 | Node | Express | Data Visualization | Text Analysis | Responsive Design | Auth | Jest | Enzyme"
+		"text": "Look at patterns in the text of presidential inaugural addresses in this data-viz focused, full-stack, mobile-first responsive project.",
+		"tech": [
+			"D3",
+			"React",
+			"MongoDB",
+			"Express (node)",
+			"Data Visualization",
+			"Responsive Design",
+			"Text Analysis",
+			"HTML",
+			"CSS",
+			"JS"
+		]
 	},
 	{
 		"title": "World Bank Country Categories",
