@@ -78,6 +78,17 @@
 		]
 	},
 	{
+		"title": "Enterprise Resource Planner",
+		"text": "A time-tracking, ticket-based, resource management system",
+		"tech": [
+			"DHTMLX",
+			"JS",
+			"HTML",
+			"CSS",
+			"PHP"
+		]
+	},
+	{
 		"title": "Macro Recipes",
 		"subTitle": "Nutrient-Driven Recipe Finder",
 		"hoverText": "Search for recipes based on protein, fat, & carb values!",
