@@ -65,10 +65,17 @@
 		]
 	},
 	{
-		"title": "CT Housing Permits",
-		"subTitle": "Interactive Choropleth Mapping",
-		"hoverText": "See how many housing permits were issued by town in CT...",
-		"tech": " D3 | Mapping | Responsive Design | Data Visualization | JS | HTML | CSS"
+		"title": "CT Housing Permits, Mapped",
+		"text": "An interactive choropleth mapping project, representing the range of housing permits issued per town in Connecticut in 2018.",
+		"tech": [
+			"D3",
+			"Mapping",
+			"Responsive Design",
+			"Data Visualization",
+			"JS",
+			"HTML",
+			"CSS"
+		]
 	},
 	{
 		"title": "Macro Recipes",
