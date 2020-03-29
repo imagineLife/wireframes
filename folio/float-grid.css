@@ -71,7 +71,7 @@
 }
 
 /* Non-mobile, grid */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   
   /* 2 columns, 2/12 in % */  
   .col-2{
