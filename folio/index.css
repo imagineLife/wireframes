@@ -71,15 +71,16 @@ nav ul li {
   margin-bottom: 20px;
 }
 
-a.box{
+div.box{
   background-size: cover;
   display: block;
   border-radius: 0 0 25px 25px;
   height: 305px;
   text-decoration: none;
+  padding: 0;
 }
 
-a.box img{
+div.box img{
   max-width: 100%;
   margin-bottom: -3px;
   border-radius: 0 0 25px 25px;
@@ -170,7 +171,7 @@ section.welcome *{
   Box bg images
 */
 
-a.psmi-bg{
+div.psmi-bg{
   background-image: url('./assets/imgs/psm.png');
   background-size: inherit;
 }
@@ -237,7 +238,7 @@ a.psmi-bg{
   background-color: blue;
 }
 
-a.box, div.caption, img.overlay{
+div.box, div.caption, img.overlay{
   transition: all 300ms;
 }
 
@@ -246,6 +247,6 @@ p.overlay-text{
   color: white;
 }
 
-a.box:hover p.overlay-text{
+div.box:hover p.overlay-text{
   opacity: 1;
 }
