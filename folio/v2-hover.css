@@ -19,18 +19,18 @@
   background-color: rgba(0,0,0,.7);
 }
 
-/*
-  hover Text && line
-*/
-
 /* > * is 'only 1 level below'*/
 .hover-v2 .caption > *{
   transition: all;
   transition-duration: .3s;
-  opacity: 0;
+  opacity: 1;
 }
 
-a.box:hover .caption > *{
+  .box .caption p:nth-child(1){
+    opacity: 1;
+  }
+
+a.box .caption > *{
   opacity: 1;
 }
 
@@ -46,16 +46,10 @@ a.box:hover .caption > *{
 
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
-  transform: translateY(-10px);
+  /*transform: translateY(-10px);*/
   color: rgb(87,185,221);
   border: rgb(87,185,221);
   font-size: 1.1em;
-}
-
-.box:hover .caption p:nth-child(1){
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.2s;
 }
 
 /*HR*/
@@ -128,5 +122,19 @@ div.caption li:last-child::after{
   }
   .hover-v2 .box:hover .caption{ 
     background-color: rgba(0,0,0,.8);
+  }
+
+  .hover-v2 .caption p:nth-child(1){
+    transform: translateY(-10px);
+  }
+
+  .box .caption p:nth-child(1){
+    opacity: 0;
+  }
+
+  .box:hover .caption p:nth-child(1){
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
   }
 }
