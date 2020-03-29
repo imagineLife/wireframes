@@ -46,25 +46,19 @@ a.box .caption > *{
 
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
-  /*transform: translateY(-10px);*/
   color: rgb(87,185,221);
   border: rgb(87,185,221);
   font-size: 1.1em;
 }
 
 /*HR*/
-.hover-v2 .caption hr{
-  width: 0%;
-  margin: 10px 12.5%;
-  border: 2px solid rgb(87,185,221);
-}
-
-.box:hover .caption hr{
+.box .caption hr{
   opacity: 1;
   width: 75%;
+  margin: 10px 12.5%;
+  border: 2px solid rgb(87,185,221);
   transition-delay: 0.1s;
 }
-
 
 /*sub-text*/
 .hover-v2 .caption p.sub-text{
@@ -137,4 +131,15 @@ div.caption li:last-child::after{
     transform: translateY(0);
     transition-delay: 0.2s;
   }
+
+  .hover-v2 .caption hr{
+    opacity: 0;
+    width: 0%;
+  }
+
+  .box:hover .caption hr{
+    opacity: 1;
+    width: 75%;
+  }
+
 }
