@@ -30,7 +30,7 @@
   opacity: 1;
 }
 
-a.box .caption > *{
+.box .caption > *{
   opacity: 1;
 }
 
@@ -47,8 +47,12 @@ a.box .caption > *{
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
   color: rgb(87,185,221);
-  border: rgb(87,185,221);
   font-size: 1.1em;
+}
+
+hr{
+  color: rgb(87,185,221);
+  border: 2px solid rgb(87,185,221);
 }
 
 /*HR*/
@@ -129,6 +133,7 @@ div.caption li:last-child::after{
   .hover-v2 .caption hr{
     opacity: 0;
     width: 0%;
+    margin-left: 12.5%;
   }
 
   .box:hover .caption hr{
