@@ -4,6 +4,7 @@
 
 body{
   background-color: rgb(15,31,50);
+  margin: 0;
 }
 
 main {
@@ -98,6 +99,10 @@ section.welcome{
   height: 500px;
   position: relative;
   margin-bottom: 50px;
+}
+
+section.welcome *{
+  max-width: unset;
 }
 
 .text-box{
