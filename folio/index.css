@@ -140,6 +140,7 @@ section.welcome *{
 
 .tech-li i{
   font-style: italic;
+  font-size: .7em;
 }
 
 .tech-li.title{
