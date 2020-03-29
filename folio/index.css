@@ -161,6 +161,11 @@ section.welcome *{
 /*
   Box bg images
 */
+
+a.psmi-bg{
+  background-image: url('./assets/imgs/psm.png');
+  background-size: inherit;
+}
 .mastering-bg{
   background: center / auto no-repeat url('./assets/imgs/D3.png');
 }
