@@ -40,6 +40,10 @@ a.box:hover .caption > *{
   opacity: 0;
 }
 
+.caption p:nth-child(1) i{
+  font-size: .7em;
+}
+
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
   transform: translateY(-10px);
