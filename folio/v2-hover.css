@@ -72,13 +72,12 @@ div.caption ul {
   position: absolute;
   width: 90%;
   bottom: 10px;
-  transform: translateX(35px);
 }
 
-.box:hover .caption ul {
+.box .caption ul {
   opacity: 1;
   transform: translateX(0);
-  transition-delay: .5s;
+  transition-delay: .2s;
 }
 
 div.caption li{
@@ -103,6 +102,8 @@ div.caption li:last-child::after{
 */
 
 @media only screen and (min-width: 640px){
+  
+  /* caption */
   .hover-v2 .box .caption{ 
     background-color: unset;
   }
@@ -110,6 +111,7 @@ div.caption li:last-child::after{
     background-color: rgba(0,0,0,.8);
   }
 
+  /* title */
   .hover-v2 .caption p:nth-child(1){
     transform: translateY(-10px);
   }
@@ -142,6 +144,16 @@ div.caption li:last-child::after{
   .box:hover .caption p.sub-text{
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .box .caption ul {
+    opacity: 0;
+    transform: translateX(35px);
+  }
+
+  .box:hover .caption ul {
+    opacity: 1;
+    transform: translateX(0);
   }
 
 }
