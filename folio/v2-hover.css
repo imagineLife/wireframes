@@ -161,4 +161,13 @@ div.caption li:last-child::after{
     transform: translateX(0);
   }
 
+  .box .caption a{
+    display: none;
+  }
+
+  .box:hover .caption a{
+    display: inline-block;
+    transition: all 150ms;
+    transition-delay: 150ms;
+  }
 }
