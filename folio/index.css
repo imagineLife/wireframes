@@ -250,3 +250,17 @@ p.overlay-text{
 div.box:hover p.overlay-text{
   opacity: 1;
 }
+
+.box .caption a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.box .caption a.open{
+  background: rgba(0,0,0,0) url(./assets/imgs/open.png) center / 35px 35px;
+}
+
+.box .caption a.git{
+  background: rgba(0,0,0,0) url(./assets/imgs/github.png) center / 35px 35px;
+}
