@@ -255,6 +255,7 @@ div.box:hover p.overlay-text{
   display: inline-block;
   width: 35px;
   height: 35px;
+  margin: 10px;
 }
 
 .box .caption a.open{
