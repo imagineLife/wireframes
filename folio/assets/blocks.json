@@ -56,7 +56,9 @@
 			"HTML",
 			"CSS",
 			"Data Visualization"
-		]
+		],
+		"open": "https://imaginelife.github.io/worldMap/",
+		"blank": "https://github.com/imagineLife/worldMap"
 	},
 	{
 		"title": "R.I Stats",
