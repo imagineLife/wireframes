@@ -40,7 +40,9 @@
 			"HTML",
 			"CSS",
 			"JS"
-		]
+		],
+		"open": "https://say-what.netlify.com/",
+		"git": "https://github.com/imagineLife/say-what"
 	},
 	{
 		"title": "World Bank Mapped Categories",
