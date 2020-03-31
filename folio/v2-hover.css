@@ -15,22 +15,22 @@
   height: 100%;
 }
 
-.hover-v2 .box:hover .caption{ 
-  background-color: rgba(0,0,0,.8);
+.hover-v2 .box .caption{ 
+  background-color: rgba(0,0,0,.7);
 }
-
-/*
-  hover Text && line
-*/
 
 /* > * is 'only 1 level below'*/
 .hover-v2 .caption > *{
   transition: all;
   transition-duration: .3s;
-  opacity: 0;
+  opacity: 1;
 }
 
-a.box:hover .caption > *{
+.box .caption p:nth-child(1){
+  opacity: 1;
+}
+
+.box .caption > *{
   opacity: 1;
 }
 
@@ -40,43 +40,31 @@ a.box:hover .caption > *{
   opacity: 0;
 }
 
+.caption p:nth-child(1) i{
+  font-size: .7em;
+}
+
 .hover-v2 .caption p:nth-child(1){
   margin-top: 0;
-  transform: translateY(-10px);
   color: rgb(87,185,221);
-  border: rgb(87,185,221);
   font-size: 1.1em;
 }
 
-.box:hover .caption p:nth-child(1){
-  opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.2s;
-}
-
-/*HR*/
-.hover-v2 .caption hr{
-  width: 0%;
-  margin: 10px 12.5%;
+hr{
+  color: rgb(87,185,221);
   border: 2px solid rgb(87,185,221);
 }
 
-.box:hover .caption hr{
+/*HR*/
+.box .caption hr{
   opacity: 1;
   width: 75%;
   transition-delay: 0.1s;
 }
 
-
 /*sub-text*/
-.hover-v2 .caption p.sub-text{
-  transform: translateY(15px);
-}
-
-.box:hover .caption p.sub-text{
+.box .caption p.sub-text{
   opacity: 1;
-  transform: translateY(0);
-  transition-delay: 0.35s;
 }
 
 /*
@@ -88,13 +76,12 @@ div.caption ul {
   position: absolute;
   width: 90%;
   bottom: 10px;
-  transform: translateX(35px);
 }
 
-.box:hover .caption ul {
+.box .caption ul {
   opacity: 1;
   transform: translateX(0);
-  transition-delay: .5s;
+  transition-delay: .2s;
 }
 
 div.caption li{
@@ -110,4 +97,77 @@ div.caption li::after{
 
 div.caption li:last-child::after{
   content: '';
+}
+
+
+
+/*
+    Hover interaction @ bigger screens
+*/
+
+@media only screen and (min-width: 640px){
+  
+  /* caption */
+  .hover-v2 .box .caption{ 
+    background-color: unset;
+  }
+  .hover-v2 .box:hover .caption{ 
+    background-color: rgba(0,0,0,.8);
+  }
+
+  /* title */
+  .hover-v2 .caption p:nth-child(1){
+    transform: translateY(-10px);
+  }
+
+  .box .caption p:nth-child(1){
+    opacity: 0;
+  }
+
+  .box:hover .caption p:nth-child(1){
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+  }
+
+  .hover-v2 .caption hr{
+    opacity: 0;
+    width: 0%;
+    margin-left: 12.5%;
+  }
+
+  .box:hover .caption hr{
+    opacity: 1;
+    width: 75%;
+  }
+
+  .box .caption p.sub-text{
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  .box:hover .caption p.sub-text{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .box .caption ul {
+    opacity: 0;
+    transform: translateX(35px);
+  }
+
+  .box:hover .caption ul {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .box .caption a{
+    display: none;
+  }
+
+  .box:hover .caption a{
+    display: inline-block;
+    transition: all 150ms;
+    transition-delay: 150ms;
+  }
 }

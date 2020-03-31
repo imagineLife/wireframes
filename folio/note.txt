@@ -1,0 +1,55 @@
+parts
+
+div.column
+	div.
+		a
+			img.blank
+			div.caption
+
+
+functionality
+
+div.column
+- responsive width
+
+	div.
+	- class
+		a
+			img.blank
+			div.caption
+
+
+----anchor && link----
+section.main .col .tn-bb a, 
+section.main .col .tn-bb a:link, 
+section.main .col .tn-bb a:active, 
+section.main .col-even .tn-bb a, 
+section.main .col-even .tn-bb a:link, 
+section.main .col-even .tn-bb a:active {
+	background: transparent url("../i/tn-bb1.1.jpg") top left no-repeat;
+	background-size: 100%; 
+}
+
+----caption----
+section.main .col .tn-bb a .caption, 
+section.main .col .tn-bb a:link .caption, 
+section.main .col .tn-bb a:active .caption, 
+section.main .col-even .tn-bb a .caption, 
+section.main .col-even .tn-bb a:link .caption, 
+section.main .col-even .tn-bb a:active .caption {
+	background: transparent url("../i/bb-green80.png") top left repeat; 
+}
+    
+
+
+HOVER    
+section.main .col .tn-bb a:hover, 
+section.main .col-even .tn-bb a:hover {
+	background: transparent url("../i/tn-bb2.1.jpg") top left no-repeat;
+	background-size: 100%; 
+}
+      
+section.main .col .tn-bb a:hover .caption, 
+section.main .col-even .tn-bb a:hover .caption {
+	background: transparent url("../i/bb-green80.png") top left repeat; 
+}

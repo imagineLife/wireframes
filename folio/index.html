@@ -11,6 +11,7 @@
 
       <title>Folio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--       <link rel="stylesheet" href="./../resetNormalize.css" /> -->
       <link rel="stylesheet" href="./float-grid.css" />
       <link rel="stylesheet" href="./index.css" />
       <link rel="stylesheet" href="./respond.css" />
@@ -38,7 +39,7 @@
                <p class="intro-text">
                   <b>Welcome</b><br>
                   Friends & Family call me Jake. <br>I make web-based software. <br>
-                  I also really enjoy visualizing information <i>(data visualization)</i>.<br>
+                  I also enjoy data visualization</i>.<br>
                </p>
                <div class="tech-list-box">
                   <ul class="tech-list">
@@ -78,7 +79,7 @@
                   <ul class="tech-list">
                      <li class="tech-li title"><b>Team</b></li>
                      <br>
-                     <li class="tech-li">PSM <i class="small">(Certified Professional Scrum Master)</i></li>
+                     <li class="tech-li">Professional Scrum Master</li>
                      <li class="tech-li">Git</li>
                      <li class="tech-li">GitLab</li>
                      <li class="tech-li">StrengthFinder Advocate</li>
@@ -97,11 +98,26 @@
 
             <!-- ORIGINALs BELOW -->
             <div class="col-3-4 hover-v2">
-               <a target="_blank" class="box mastering-bg" href="https://www.ntuclearninghub.com/udemy/course/?id=2421558">
-                  <div class="caption"">
+               <div target="_blank" class="box psmi-bg">
+                  <div class="caption">
+                     <p>Professional Scrum Master <i>(Certified)</i></p>
+                     <hr />
+                     <p class="sub-text">Scrum is a framework that teams can use to enable team-wide transparency, inspection & adaptation while developing & delivering complex products.</p>
+                     <a href="https://www.scrum.org/certificates/519854" target="_blank"class="open"></a>
+                     <ul>
+                        <li>Team Process Framework</li>
+                        <li>Servant Leadership</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-3-4 hover-v2">
+               <div target="_blank" class="box mastering-bg">
+                  <div class="caption">
                      <p>Mastering D3v5</p>
                      <hr />
                      <p class="sub-text">An online course I created covering D3v5, interactive mapping, linked visualizations, 3rd party api integration & more.</p>
+                     <a href="https://www.ntuclearninghub.com/udemy/course/?id=2421558" target="_blank"class="open"></a>
                      <ul>
                         <li>D3</li>
                         <li>Data Vizualization</li>
@@ -109,17 +125,18 @@
                         <li>Audio/Video Recording & Editing</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a 
+               <div 
                   class="box pizza-bg"
                   href="https://github.com/imagineLife/nodeWork/tree/master/pizzaAPI"
                   target="_blank">
                   <div class="caption" >
-                     <p>Pizza-Deliver Node API</p>
+                     <p>Restaurant Node API</p>
                      <hr />
-                     <p class="sub-text">An API using core Node API, no npm: user-accounts <i>(CRUD)</i>, a cli, auth, menu & cart management, <i>stripe & mailgun api</i> integration, logging & more.</p>
+                     <p class="sub-text">An API using core Node API, no npm: account & cart management <i>(CRUD)</i>, a cli, auth, <i>stripe & mailgun api</i> integration, logging & more.</p>
+                     <a href="https://github.com/imagineLife/nodeWork/tree/master/pizzaAPI" target="_blank"class="git"></a>
                      <ul>
                         <li>Node</li>
                         <li>JavaScript</li>
@@ -130,14 +147,18 @@
                         <li>logging</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a class="box say-what-bg">
+               <div class="box say-what-bg">
                   <div class="caption">
                      <p>SayWhat?!</p>
                      <hr />
                      <p class="sub-text">Look at patterns in the text of presidential inaugural addresses in this data-viz focused, full-stack, mobile-first responsive project.</p>
+                     <div class="link-box">
+                        <a href="https://say-what.netlify.com/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/say-what" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>D3</li>
                         <li>React</li>
@@ -151,17 +172,21 @@
                         <li>CSS</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a 
+               <div 
                   class="box world-map-bg" 
                   href="https://imaginelife.github.io/worldMap/"
                   target="_blank">
                   <div class="caption">
                      <p>WEO Country Categories Mapped</p>
                      <hr />
-                     <p class="sub-text">Zoom, toggle, and hover in this map of the countries of the world categorically colored by their GNI per capita.</p>
+                     <p class="sub-text">Zoom, toggle, & hover in this map of the countries of the world categorically colored by their GNI per capita.</p>
+                     <div class="link-box">
+                        <a href="https://imaginelife.github.io/worldMap/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/worldMap" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>D3</li>
                         <li>Mapping</li>
@@ -172,10 +197,10 @@
                         <li>Data Visualization</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a 
+               <div 
                   class="box rhode-island-bg"
                   href="https://imaginelife.github.io/ristats/"
                   target="_blank">
@@ -184,6 +209,10 @@
                      <p>R.I Stats</p>
                      <hr />
                      <p class="sub-text">Review Poverty & Income levels in Rhode Island through simple charts & maps.</p>
+                     <div class="link-box">
+                        <a href="https://imaginelife.github.io/ristats/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/ristats" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>D3</li>
                         <li>Mapping</li>
@@ -194,15 +223,19 @@
                         <li>Data Visualization</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a 
+               <div 
                class="box housing-permits-bg">
                   <div class="caption">
                      <p>CT Housing Permits, Mapped</p>
                      <hr />
                      <p class="sub-text">An interactive choropleth mapping project, representing the range of housing permits issued per town in Connecticut in 2018.</p>
+                     <div class="link-box">
+                        <a href="https://imaginelife.github.io/stateHousingPermits/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/stateHousingPermits" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>D3</li>
                         <li>Mapping</li>
@@ -213,14 +246,15 @@
                         <li>CSS</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a class="box erp-bg">
+               <div class="box erp-bg">
                   <div class="caption">
                      <p>Enterprise Resource Planner</p>
                      <hr />
-                     <p class="sub-text">A time-tracking, ticket-based, resource management system.</p>
+                     <p class="sub-text">A time-tracking, ticket-based, resource management system. <br>
+                     <i>I do not own the code to this project.</i></p>
                      <ul>
                         <li>DHTMLX</li>
                         <li>JS</li>
@@ -229,14 +263,18 @@
                         <li>PHP</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a class="box my-miles-bg">
+               <div class="box my-miles-bg">
                   <div class="caption">
                      <p>MyMiles</p>
                      <hr />
                      <p class="sub-text">Record, edit & export vehicle mileage logs in this responsive app.</p>
+                     <div class="link-box">
+                        <a href="https://tranquil-sierra-12911.herokuapp.com/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/myMiles" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>API</li>
                         <li>Responsive Design</li>
@@ -245,14 +283,18 @@
                         <li>CSS</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
             <div class="col-3-4 hover-v2">
-               <a class="box macro-recipes-bg">
+               <div class="box macro-recipes-bg">
                   <div class="caption">
                      <p>MacroRecipes</p>
                      <hr />
                      <p class="sub-text">Find Recipes based on ingredients and gram counts of carbs, calories, fat, and protein.</p>
+                     <div class="link-box">
+                        <a href="https://imaginelife.github.io/MacroRecipes/" target="_blank"class="open"></a>
+                        <a href="https://github.com/imagineLife/MacroRecipes" target="_blank"class="git"></a>
+                     </div>
                      <ul>
                         <li>API</li>
                         <li>Responsive Design</li>
@@ -261,7 +303,7 @@
                         <li>JS</li>
                      </ul>
                   </div>
-               </a>
+               </div>
             </div>
          </section>
       </main>
