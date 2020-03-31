@@ -22,7 +22,8 @@
 			"(De+)Compression",
 			"CLI",
 			"Logging"
-		]
+		],
+		"git": "https://github.com/imagineLife/nodeWork/tree/master/pizzaAPI"
 	},
 	{
 		"title": "SayWhat?!",
