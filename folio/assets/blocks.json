@@ -13,7 +13,6 @@
 	{
 		"title": "Pizza-Deliver Node API",
 		"text": "An API using core Node API, no npm: user-accounts (CRUD), a cli, auth, menu & cart management, stripe & mailgun api integration, logging & more.",
-		"codeLink": "https://github.com/imagineLife/nodeWork/tree/master/pizzaAPI",
 		"tech": [
 			"Node",
 			"JavaScript",
@@ -28,7 +27,6 @@
 	{
 		"title": "SayWhat?!",
 		"text": "Look at patterns in the text of presidential inaugural addresses in this data-viz focused, full-stack, mobile-first responsive project.",
-		"codeLink": "https://github.com/imagineLife/say-what",
 		"tech": [
 			"D3",
 			"React",
@@ -47,7 +45,6 @@
 	{
 		"title": "World Bank Mapped Categories",
 		"text": "Zoom, toggle, and hover in this map of the countries of the world categorically colored by their GNI per capita.",
-		"codeLink": "https://github.com/imagineLife/worldMap",
 		"tech": [
 			"D3",
 			"Mapping",
@@ -63,7 +60,6 @@
 	{
 		"title": "R.I Stats",
 		"hoverText": "Review Poverty & Income levels in Rhode Island through simple charts & maps.",
-		"codeLink": "https://github.com/imagineLife/ristats",
 		"tech": [
 			"D3",
 			"Mapping",
@@ -79,7 +75,6 @@
 	{
 		"title": "CT Housing Permits, Mapped",
 		"text": "An interactive choropleth mapping project, representing the range of housing permits issued per town in Connecticut in 2018.",
-		"codeLink": "https://github.com/imagineLife/stateHousingPermits",
 		"tech": [
 			"D3",
 			"Mapping",
@@ -104,9 +99,21 @@
 		]
 	},
 	{
+		"title": "MyMiles",
+		"text": "Record, edit & export vehicle mileage logs in this responsive app.",
+		"tech": [
+			"HTML",
+			"CSS",
+			"JS",
+			"Responsive Design",
+			"API Integration"
+		],
+		"open": "https://tranquil-sierra-12911.herokuapp.com/",
+		"git": "https://github.com/imagineLife/myMiles"
+	},
+	{
 		"title": "Macro Recipes",
 		"text": "Find Recipes based on ingredients and amounts of carbs, calories, fat, and protein.",
-		"codeLink": "https://github.com/imagineLife/MacroRecipes",
 		"tech": [
 			"HTML",
 			"CSS",
