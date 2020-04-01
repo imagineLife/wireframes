@@ -72,7 +72,9 @@
 			"HTML",
 			"CSS",
 			"Data Visualization"
-		]
+		],
+		"open": "https://imaginelife.github.io/ristats/",
+		"git": "https://github.com/imagineLife/ristats"
 	},
 	{
 		"title": "CT Housing Permits, Mapped",
