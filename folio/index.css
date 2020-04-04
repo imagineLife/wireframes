@@ -175,8 +175,12 @@ div.psmi-bg{
   background-image: url('./assets/imgs/psm.png');
   background-size: inherit;
 }
+
 .mastering-bg{
   background: center / auto no-repeat url('./assets/imgs/D3.png');
+}
+.slice-n-dice-bg{
+  background: center / auto no-repeat url('./assets/imgs/slice.jpeg');
 }
 .pizza-bg{
   background: center / auto no-repeat url('./assets/imgs/nodeServer.jpg');
